@@ -2,7 +2,7 @@ require 'sinatra/base'
 
 class BookmarkManager < Sinatra::Base
   get '/' do
-    'Hello Word'
+    'Bookmark Manager'
   end
 
   run! if app_file == $PROGRAM_NAME
