@@ -1,6 +1,6 @@
 feature 'Updating a bookmark' do
   scenario 'A user can update a bookmark' do
-    bookmark = Bookmarks.create(url: 'http://makersacademy.com', title: 'Makers Academy')
+    bookmark = Bookmark.create(url: 'http://makersacademy.com', title: 'Makers Academy')
 
     visit('/bookmarks')
     first('.bookmark').click_button 'Edit'
